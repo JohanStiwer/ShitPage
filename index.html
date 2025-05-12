@@ -1,58 +1,262 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nombres para Perros por Raza</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 font-sans text-gray-800">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nombres para Perros por Raza</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 font-sans text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white p-6 text-center">
+      <h1 class="text-3xl font-bold">🐾 Nombres para Perros por Raza</h1>
+      <p class="mt-2 text-sm">
+        Explora nombres según la raza de tu compañero fiel
+      </p>
+    </header>
 
-  <!-- Header -->
-  <header class="bg-blue-900 text-white p-6 text-center">
-    <h1 class="text-3xl font-bold">🐾 Nombres para Perros por Raza</h1>
-    <p class="mt-2 text-sm">Explora nombres según la raza de tu compañero fiel</p>
-  </header>
+    <!-- Contenido principal -->
+    <main class="p-6">
+      <h2 class="text-xl font-semibold mb-4">Elige una raza:</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Tarjeta Husky -->
+        <a
+          href="pages/huskys.html"
+          class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
+        >
+          <img
+            src="img/husky.jpg"
+            alt="Husky"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Huskys</h3>
+            <p class="text-sm text-gray-600">
+              Nombres inspirados en su espíritu ártico 🐺
+            </p>
+          </div>
+        </a>
 
-  <!-- Contenido principal -->
-  <main class="p-6">
-    <h2 class="text-xl font-semibold mb-4">Elige una raza:</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Tarjeta Golden Retriever -->
+        <a
+          href="pages/goldens.html"
+          class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
+        >
+          <img
+            src="img/golden.jpg"
+            alt="Golden Retriever"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Golden Retrievers</h3>
+            <p class="text-sm text-gray-600">
+              Dulces y nobles, como sus nombres ✨
+            </p>
+          </div>
+        </a>
 
-      <!-- Tarjeta Husky -->
-      <a href="pages/huskys.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-        <img src="img/husky.jpg" alt="Husky" class="w-full h-48 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-bold">Huskys</h3>
-          <p class="text-sm text-gray-600">Nombres inspirados en su espíritu ártico 🐺</p>
-        </div>
-      </a>
+        <!-- Tarjeta Labrador -->
+        <a
+          href="pages/labradores.html"
+          class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
+        >
+          <img
+            src="img/labrador.jpg"
+            alt="Labrador"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-bold">Labradores</h3>
+            <p class="text-sm text-gray-600">
+              Leales, juguetones y con nombres a juego 🐶
+            </p>
+          </div>
+        </a>
 
-      <!-- Tarjeta Golden -->
-      <a href="pages/goldens.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-        <img src="img/golden.jpg" alt="Golden Retriever" class="w-full h-48 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-bold">Golden Retrievers</h3>
-          <p class="text-sm text-gray-600">Dulces y nobles, como sus nombres ✨</p>
-        </div>
-      </a>
+        <!-- Tarjeta Beagle -->
+<a href="pages/beagles.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/beagle.jpg" alt="Beagle" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Beagles</h3>
+    <p class="text-sm text-gray-600">Divertidos y curiosos, como sus nombres 🐾</p>
+  </div>
+</a>
 
-      <!-- Tarjeta Labrador -->
-      <a href="pages/labradores.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-        <img src="img/labrador.jpg" alt="Labrador" class="w-full h-48 object-cover">
-        <div class="p-4">
-          <h3 class="text-lg font-bold">Labradores</h3>
-          <p class="text-sm text-gray-600">Leales, juguetones y con nombres a juego 🐶</p>
-        </div>
-      </a>
+<!-- Tarjeta Bulldog -->
+<a href="pages/bulldogs.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/bulldog.jpg" alt="Bulldog" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Bulldogs</h3>
+    <p class="text-sm text-gray-600">Fuertes y cariñosos, con nombres únicos 🐾</p>
+  </div>
+</a>
 
-    </div>
-  </main>
+<!-- Tarjeta Chihuahua -->
+<a href="pages/chihuahuas.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/chihuahua.jpg" alt="Chihuahua" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Chihuahuas</h3>
+    <p class="text-sm text-gray-600">Pequeños pero con grandes nombres 🌟</p>
+  </div>
+</a>
 
-  <!-- Footer -->
-<div id="footer-container"></div>
-<script src="/js/load-footer.js"></script>
+<!-- Tarjeta Poodle -->
+<a href="pages/poodles.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/poodle.jpg" alt="Poodle" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Poodles</h3>
+    <p class="text-sm text-gray-600">Elegantes y sofisticados, con nombres de lujo 👑</p>
+  </div>
+</a>
 
+<!-- Tarjeta Dachshund -->
+<a href="pages/dachshunds.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/dachshund.jpg" alt="Dachshund" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Dachshunds</h3>
+    <p class="text-sm text-gray-600">Largos y divertidos, con nombres chispeantes 💥</p>
+  </div>
+</a>
 
-</body>
+<!-- Tarjeta Rottweiler -->
+<a href="pages/rottweilers.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/rottweiler.jpg" alt="Rottweiler" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Rottweilers</h3>
+    <p class="text-sm text-gray-600">Protector y fiel, con nombres fuertes 💪</p>
+  </div>
+</a>
+
+<!-- Tarjeta Bulldog Francés -->
+<a href="pages/frenchbulldogs.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/frenchbulldog.jpg" alt="Bulldog Francés" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Bulldogs Franceses</h3>
+    <p class="text-sm text-gray-600">Divertidos y adorables, como sus nombres 💖</p>
+  </div>
+</a>
+
+<!-- Tarjeta Pomerania -->
+<a href="pages/pomeranians.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/pomerania.jpg" alt="Pomerania" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Pomeranias</h3>
+    <p class="text-sm text-gray-600">Pequeños y esponjosos, con nombres de carácter 💫</p>
+  </div>
+</a>
+
+<!-- Tarjeta Cocker Spaniel -->
+<a href="pages/cockerspaniels.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/cocker.jpg" alt="Cocker Spaniel" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Cocker Spaniels</h3>
+    <p class="text-sm text-gray-600">Leales y tiernos, con nombres adorables 💖</p>
+  </div>
+</a>
+
+<!-- Tarjeta Shih Tzu -->
+<a href="pages/shihtzus.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/shihtzu.jpg" alt="Shih Tzu" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Shih Tzus</h3>
+    <p class="text-sm text-gray-600">Elegantes y cariñosos, con nombres perfectos 👑</p>
+  </div>
+</a>
+
+<!-- Tarjeta Boxer -->
+<a href="pages/boxers.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/boxer.jpg" alt="Boxer" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Boxers</h3>
+    <p class="text-sm text-gray-600">Energéticos y protectores, con nombres valientes 🥊</p>
+  </div>
+</a>
+
+<!-- Tarjeta Border Collie -->
+<a href="pages/bordercollies.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/bordercollie.jpg" alt="Border Collie" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Border Collies</h3>
+    <p class="text-sm text-gray-600">Inteligentes y activos, con nombres ágiles 🏃‍♂️</p>
+  </div>
+</a>
+
+<!-- Tarjeta Schnauzer -->
+<a href="pages/schnauzers.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/schnauzer.jpg" alt="Schnauzer" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Schnauzers</h3>
+    <p class="text-sm text-gray-600">Leales y audaces, con nombres con carácter 💼</p>
+  </div>
+</a>
+
+<!-- Tarjeta Pastor Alemán -->
+<a href="pages/germanshepherds.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/germanshepherd.jpg" alt="Pastor Alemán" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Pastores Alemanes</h3>
+    <p class="text-sm text-gray-600">Inteligentes y protectores, con nombres fuertes 🐕</p>
+  </div>
+</a>
+
+<!-- Tarjeta Pug -->
+<a href="pages/pugs.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/pug.jpg" alt="Pug" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Pugs</h3>
+    <p class="text-sm text-gray-600">Chistosos y adorables, con nombres graciosos 🐷</p>
+  </div>
+</a>
+
+<!-- Tarjeta Akita -->
+<a href="pages/akita.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/akita.jpg" alt="Akita" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Akitas</h3>
+    <p class="text-sm text-gray-600">Fieles y protectores, con nombres fuertes 💪</p>
+  </div>
+</a>
+
+<!-- Tarjeta Samoyedo -->
+<a href="pages/samoyeds.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/samoyed.jpg" alt="Samoyed" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Samoyedos</h3>
+    <p class="text-sm text-gray-600">Amigables y esponjosos, con nombres adorables ☁️</p>
+  </div>
+</a>
+
+<!-- Tarjeta Shiba Inu -->
+<a href="pages/shibainus.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/shibainu.jpg" alt="Shiba Inu" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Shiba Inus</h3>
+    <p class="text-sm text-gray-600">Leales y fuertes, con nombres únicos 🐾</p>
+  </div>
+</a>
+
+<!-- Tarjeta Basset Hound -->
+<a href="pages/bassethounds.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/bassethound.jpg" alt="Basset Hound" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Basset Hounds</h3>
+    <p class="text-sm text-gray-600">Dulces y curiosos, con nombres simpáticos 👃</p>
+  </div>
+</a>
+
+<!-- Tarjeta Border Terrier -->
+<a href="pages/borderterriers.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+  <img src="img/borderterrier.jpg" alt="Border Terrier" class="w-full h-48 object-cover">
+  <div class="p-4">
+    <h3 class="text-lg font-bold">Border Terriers</h3>
+    <p class="text-sm text-gray-600">Pequeños pero valientes, con nombres chispeantes ⚡</p>
+  </div>
+</a>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+    <script src="/js/load-footer.js"></script>
+  </body>
 </html>
