@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nombres para Huskys</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-4 text-center">
+    <h1 class="text-2xl font-bold">🐾 Nombres para Huskys</h1>
+    <p class="text-sm mt-1">Elige el mejor nombre y mira su imagen</p>
+    <a href="index.html" class="underline text-blue-200 text-sm">← Volver al inicio</a>
+  </header>
+
+  <!-- Filtros -->
+  <section class="p-4">
+    <h2 class="text-lg font-semibold mb-3">Filtrar por tipo:</h2>
+    <div class="flex flex-wrap gap-2">
+      <button class="filter-btn bg-gray-200 px-3 py-1 rounded-full text-sm" data-filter="todos">Todos</button>
+      <button class="filter-btn bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm" data-filter="macho">Machos</button>
+      <button class="filter-btn bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm" data-filter="hembra">Hembras</button>
+      <button class="filter-btn bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm" data-filter="unisex">Unisex</button>
+    </div>
+  </section>
+
+  <!-- Lista de nombres con imagen -->
+  <section class="p-4">
+    <h2 class="text-xl font-semibold mb-3">Nombres con imagen</h2>
+    <div id="nombre-lista" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <!-- JS agregará los nombres con imagen aquí -->
+    </div>
+  </section>
+
+  <footer class="bg-blue-900 text-white text-center text-sm p-4 mt-6">
+    © 2025 Nombres para Huskys - Inspiración para tu mejor amigo 🐶
+  </footer>
+
+  <script src="../js/huskys.js"></script>
+</body>
+</html>

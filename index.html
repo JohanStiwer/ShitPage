@@ -3,16 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Página con Tailwind</title>
-  <link href="./dist/output.css" rel="stylesheet">
+  <title>Nombres para Perros por Raza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800 p-6">
+<body class="bg-gray-50 font-sans text-gray-800">
 
-  <h1 class="text-3xl font-bold text-purple-700 mb-4">Bienvenido a mi sitio</h1>
-  <p class="mb-4">¡Ya estás usando Tailwind CSS de forma correcta!</p>
-  <button class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">
-    Empezar
-  </button>
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-6 text-center">
+    <h1 class="text-3xl font-bold">🐾 Nombres para Perros por Raza</h1>
+    <p class="mt-2 text-sm">Explora nombres según la raza de tu compañero fiel</p>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="p-6">
+    <h2 class="text-xl font-semibold mb-4">Elige una raza:</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+      <!-- Tarjeta Husky -->
+      <a href="pages/huskys.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+        <img src="img/husky.jpg" alt="Husky" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">Huskys</h3>
+          <p class="text-sm text-gray-600">Nombres inspirados en su espíritu ártico 🐺</p>
+        </div>
+      </a>
+
+      <!-- Tarjeta Golden -->
+      <a href="pages/goldens.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+        <img src="img/golden.jpg" alt="Golden Retriever" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">Golden Retrievers</h3>
+          <p class="text-sm text-gray-600">Dulces y nobles, como sus nombres ✨</p>
+        </div>
+      </a>
+
+      <!-- Tarjeta Labrador -->
+      <a href="pages/labradores.html" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+        <img src="img/labrador.jpg" alt="Labrador" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">Labradores</h3>
+          <p class="text-sm text-gray-600">Leales, juguetones y con nombres a juego 🐶</p>
+        </div>
+      </a>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center text-sm p-4 mt-10">
+    © 2025 Nombres para Perros. Diseñado con amor por Johan 🐾
+  </footer>
 
 </body>
 </html>
