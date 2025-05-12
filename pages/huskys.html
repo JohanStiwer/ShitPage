@@ -1,43 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nombres para Huskys</title>
+  <title>Husky Siberiano - Información Completa</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body class="bg-gray-100 text-gray-800 font-sans">
 
   <!-- Header -->
-  <header class="bg-blue-900 text-white p-4 text-center">
-    <h1 class="text-2xl font-bold">🐾 Nombres para Huskys</h1>
-    <p class="text-sm mt-1">Elige el mejor nombre y mira su imagen</p>
-    <a href="../index.html" class="underline text-blue-200 text-sm">← Volver al inicio</a>
+  <header class="bg-blue-900 text-white p-6 text-center">
+    <h1 class="text-3xl font-bold">🐾 Husky Siberiano</h1>
+    <p class="text-lg mt-2">Todo sobre el Husky: características, cuidados y más</p>
   </header>
 
-  <!-- Filtros -->
-  <section class="p-4">
-    <h2 class="text-lg font-semibold mb-3">Filtrar por tipo:</h2>
-    <div class="flex flex-wrap gap-2">
-      <button class="filter-btn bg-gray-200 px-3 py-1 rounded-full text-sm" data-filter="todos">Todos</button>
-      <button class="filter-btn bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm" data-filter="macho">Machos</button>
-      <button class="filter-btn bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm" data-filter="hembra">Hembras</button>
-      <button class="filter-btn bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm" data-filter="unisex">Unisex</button>
+  <!-- Imagen Principal -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <img src="https://via.placeholder.com/800x400" alt="Husky Siberiano" class="w-full rounded-lg mb-4">
+    <p class="text-center text-sm italic">Husky Siberiano en su hábitat natural</p>
+  </section>
+
+  <!-- Características Generales -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Características Generales</h2>
+    <ul class="space-y-2">
+      <li><strong>Tamaño:</strong> Mediano (20 a 27 kg)</li>
+      <li><strong>Esperanza de Vida:</strong> 12-15 años</li>
+      <li><strong>Temperamento:</strong> Amistoso, energico y leal</li>
+      <li><strong>Color de Pelaje:</strong> Blanco, gris, negro, marrón</li>
+      <li><strong>Actividad:</strong> Necesita ejercicio intenso (mínimo 1 hora diaria)</li>
+    </ul>
+  </section>
+
+  <!-- Historia de la Raza -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Historia de la Raza</h2>
+    <p>El Husky Siberiano es originario de Siberia, donde fue utilizado por los nómadas Chukchi para tirar trineos. Se ha ganado su popularidad debido a su energía y su atractivo físico, convirtiéndose en una de las razas más adoradas a nivel mundial.</p>
+  </section>
+
+  <!-- Cuidados y Mantenimiento -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Cuidados y Mantenimiento</h2>
+    <ul class="space-y-2">
+      <li><strong>Ejercicio:</strong> Requiere mucho ejercicio. Asegúrese de que tenga espacio para correr.</li>
+      <li><strong>Alimentación:</strong> Dieta rica en proteínas de alta calidad.</li>
+      <li><strong>Aseo:</strong> Cepillado regular para mantener su pelaje saludable.</li>
+      <li><strong>Problemas de salud comunes:</strong> Displasia de cadera, problemas oculares.</li>
+    </ul>
+  </section>
+
+  <!-- Nombres Recomendados -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Nombres Recomendados</h2>
+    <p>A continuación, algunos nombres populares para Huskys:</p>
+    <ul class="space-y-2">
+      <li><strong>Machos:</strong> Max, Thor, Zeus</li>
+      <li><strong>Hembras:</strong> Luna, Nala, Sasha</li>
+      <li><strong>Unisex:</strong> Shadow, Storm, Blue</li>
+    </ul>
+  </section>
+
+  <!-- Videos y Referencias Visuales -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Videos y Referencias Visuales</h2>
+    <p>Mira cómo es un Husky en acción en los siguientes videos:</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+        <iframe class="w-full h-64" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        <iframe class="w-full h-64" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </section>
 
-  <!-- Lista de nombres con imagen -->
-  <section class="p-4">
-    <h2 class="text-xl font-semibold mb-3">Nombres con imagen</h2>
-    <div id="nombre-lista" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <!-- JS agregará los nombres con imagen aquí -->
-    </div>
+  <!-- Sección de Preguntas Frecuentes -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Preguntas Frecuentes</h2>
+    <ul class="space-y-4">
+      <li><strong>¿Es adecuado para familias con niños?</strong> Sí, los Huskys suelen ser amigables y juguetones con los niños.</li>
+      <li><strong>¿Se lleva bien con otros perros?</strong> Generalmente, sí, pero necesita socialización adecuada desde cachorro.</li>
+    </ul>
   </section>
+
+  <!-- Consejos de Salud y Veterinario -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Consejos de Salud y Veterinario</h2>
+    <p>Es importante mantener al Husky en un peso saludable y realizar chequeos regulares para evitar problemas de salud como la displasia de cadera o enfermedades oculares.</p>
+  </section>
+
+  <!-- Testimonios de Propietarios -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Testimonios de Propietarios</h2>
+    <p>"Mi Husky es mi compañero perfecto. Es leal, enérgico y siempre está listo para jugar." - Ana, propietaria de un Husky</p>
+  </section>
+
+  <!-- Formulario o Comentarios -->
+  <section class="p-6 bg-white shadow-lg rounded-lg mx-auto max-w-4xl mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Déjanos tu Comentario</h2>
+    <form action="#" method="POST">
+      <textarea class="w-full p-3 border border-gray-300 rounded-lg mb-4" rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Enviar Comentario</button>
+    </form>
+  </section>
+
   <!-- Footer -->
-  <div id="footer-container"></div>
-  <script src="/js/load-footer.js"></script>
+  <footer class="bg-blue-900 text-white text-center p-4 mt-8">
+    <p>&copy; 2025 Huskys - Todos los derechos reservados</p>
+    <div class="mt-4">
+      <a href="#" class="text-blue-200 mx-2">Facebook</a>
+      <a href="#" class="text-blue-200 mx-2">Instagram</a>
+      <a href="#" class="text-blue-200 mx-2">Twitter</a>
+    </div>
+  </footer>
 
   <script src="../js/huskys.js"></script>
 </body>
+
 </html>
